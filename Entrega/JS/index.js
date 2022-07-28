@@ -1,4 +1,4 @@
-// Defino una clase para almacenar los usuarios a generarse - Solicitar al usuario datos personales 
+/* Defino una clase para almacenar los usuarios a generarse - Solicitar al usuario datos personales 
 
 alert ("Bienvenido a Entorno Turístico! Vamos a pedirte unos datos para registrarte");
 
@@ -24,7 +24,7 @@ function registro (){
 }
     registro();
 
-// Calcular el valor de la asistencia al viajero 
+/* Calcular el valor de la asistencia al viajero 
 let destino = prompt ("Ingresá el destino de tu Viaje");
 let AXA = prompt ("Ingresá el tipo de Asistencia que deseas contratar: Nacional, Nacional + Regional, América, Europa ó Resto del Mundo");
 
@@ -47,7 +47,7 @@ function asistencia (viaje){
 }
 asistencia (viaje);
 
-// Se le ofrece 50% OFF comprando hoy 
+/* Se le ofrece 50% OFF comprando hoy 
 
 alert ("Comprá hoy y obtené un 50% OFF en tu Asistencia al Viajero");
 
@@ -61,6 +61,8 @@ function descuento (precio, descuento){
  let precioFinal=descuento(precio);
 
 alert("La cotización por tu Asistencia es $"+precioFinal);
+
+/* DOM
 
 let contenedor = document.getElementById("container");
 let promociones = [
@@ -80,4 +82,3 @@ let promociones = [
             <b>$${promocion.precio}</b>`;
             contenedor.append(li);
   }
-  
